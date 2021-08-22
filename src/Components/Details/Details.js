@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Details = () => {
+const Details = (props) => {
+    const {idLeague, strLeague, strSport, strLeagueAlternate} = props.league;
     return (
         <div>
-            <h2>This is Details</h2>
+            <h2>{idLeague}</h2>
+            <h3>{strLeague}</h3>
+            <h4>{strSport}</h4>
+            <h4>{strLeagueAlternate}</h4>
         </div>
     );
 };
