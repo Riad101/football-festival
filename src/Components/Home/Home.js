@@ -12,7 +12,7 @@ const Home = () => {
     },[])
     return (
         <div>
-            
+            <h1>{leagues.length}</h1>
             {
                 leagues.map(league=> <Details league={league}></Details>)
             }
