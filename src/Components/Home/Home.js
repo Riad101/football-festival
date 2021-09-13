@@ -34,12 +34,11 @@ const Home = () => {
                                 {league.strLeague}
                             </Typography>
                             <Typography>
-                                This is a media card. You can use this section to describe the content.
+                                SportsType: Football
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" color="primary">View</Button>
-                            <Button size="small" color="primary">Edit</Button>
+                            <Button variant="contained" color="primary">Explore</Button>                            
                         </CardActions>
                         </Card>
         
